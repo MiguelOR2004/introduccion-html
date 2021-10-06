@@ -1,0 +1,21 @@
+#menu ul li {
+    background-color: #97a4ce;
+    border: violet;
+    color: rgb(133, 211, 211);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #menu ul li a {
+      text-decoration: none;
+      color:aqua;
+  }
+
+  .activa {
+      border: royalblue;
+      background-color: rebeccapurple;
+      color: red;
+  }
