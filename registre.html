@@ -7,6 +7,13 @@
     <title>Registre</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Índex</a></li>
+            <li><a href="simple.html">Vikingos</a></li>
+            <li><a href="horari.html">Horari</a></li>
+        </ul>
+    </nav>
     <h1>Formulari de Registre</h1>
     <label for="Nom">Nom:</label>
     <input type="text" name="Nom" required>
@@ -14,9 +21,9 @@
     <label for="Llinatges">Llinatges:</label>
     <input type="text" name="Llinatges" required>
 <div></div>
-    <input type="radio"> Home
-    <input type="radio"> Dona
-    <input type="radio"> Altre
+    <input type="radio" name="gender"> Home
+    <input type="radio" name="gender"> Dona
+    <input type="radio" name="gender"> Altre
 <div></div>
     <label for="Email">Email:</label>
     <input type="email" id="Email" pattern=".+@globex\.com" size="30" required>
