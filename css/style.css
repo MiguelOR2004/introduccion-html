@@ -46,3 +46,60 @@
         display:none;
     }
 }
+
+.table, th, td{
+    border-style: ridge;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+}
+
+.dia {
+   background-color: coral;
+   color: white;
+}
+
+.horari1 {
+    background-color: chocolate;
+    color: rgb(12, 207, 241);
+}
+
+.hgrup {
+    background-color: burlywood;
+    color: rgb(228, 13, 228) ;
+}
+
+.hora {
+    background-color: sandybrown;
+    color: rgb(92, 8, 8);
+}
+
+.serveis {
+    background-color: rosybrown;
+    color: rgb(104, 85, 212);
+}
+
+.seguretat {
+    background-color: palegreen;
+    color: rgb(219, 17, 17);
+}
+
+.aplicacions {
+    background-color: lightseagreen;
+    color: rgb(39, 13, 13);
+}
+
+.eie {
+    background-color: goldenrod;
+    color: purple;
+}
+
+.sox {
+    background-color: dimgray;
+    color: gainsboro;
+}
+
+.pati {
+    background-color: crimson;
+    color: yellow;
+}
