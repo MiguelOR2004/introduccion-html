@@ -66,49 +66,57 @@ div{
     justify-content: center;
 }
     table{
-      border-collapse: collapse ;
       background-color: #ffffff;
   }
 
 .q1 {
     border-top: none;
     border-left: none;
+    border-bottom: none;
+    border-right: none;
 }
 
 .q2{
     border-top: none;
+    border-bottom: none;
 }
 
 .q3{
     border-top: none;
+    border-left: none;
+    border-bottom: none;
     border-right: none;
 }
 
 .q4{
     border-left: none;
+    border-right: none;
 }
-
-.q5{
-
-}
-
+    
 .q6{
     border-right: none;
+    border-left: none;
     
 }
 
 .q7{
     border-left: none;
     border-bottom: none;
+    border-right: none;
+    border-top: none;
 }
 
 .q8{
     border-bottom: none;
+    border-top: none;
 }
 
 .q9{
     border-bottom: none;
     border-right: none;
+    border-left: none;
+    border-top: none;
+
 }
 
 td{
