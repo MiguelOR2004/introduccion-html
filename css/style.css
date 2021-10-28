@@ -64,7 +64,7 @@
 }
 
 ul, ol {
-    list-style:none;
+    list-style: none;
 }
 
 #menu > li {
@@ -76,7 +76,7 @@ ul, ol {
     color:rgb(99, 120, 235);
     text-decoration:none;
     padding:10px 12px;
-    display:block;
+    display: flow-root;
 }
 
 #menu  li a:hover {
@@ -84,8 +84,8 @@ ul, ol {
 }
 
 #menu li ul {
-    display:none;
-    position:absolute;
+    display: none;
+    position: absolute;
     min-width:140px;
 }
 
