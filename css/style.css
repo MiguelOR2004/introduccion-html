@@ -1,4 +1,4 @@
-#menu ul li {
+/*#menu ul li {
     background-color: #97a4ce;
     border: violet;
     color: rgb(133, 211, 211);
@@ -51,6 +51,57 @@
         display:none;
     }
 }
+*/
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    margin:auto;
+    width:500px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:rgb(99, 120, 235);
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
 
 
 
@@ -115,10 +166,6 @@ tr :hover {
     background-color: crimson;
     color: yellow;
 }
-
-
-
-
 
 
 
