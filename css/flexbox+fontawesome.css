@@ -37,11 +37,12 @@ body{
 
 #menu {
     margin:auto;
-    width:500px;
+    width:fit-content;
 }
 
 ul, ol {
     list-style: none;
+    display: inline-flex;
 }
 
 #menu > li {
@@ -53,7 +54,7 @@ ul, ol {
     color:rgb(99, 120, 235);
     text-decoration:none;
     padding:10px 12px;
-    display: flow-root;
+    display:block;
 }
 
 #menu  li a:hover {
