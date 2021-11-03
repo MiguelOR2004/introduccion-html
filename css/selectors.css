@@ -154,11 +154,12 @@ a:visited{
 
 #menu {
     margin:auto;
-    width:500px;
+    width:fit-content;
 }
 
 ul, ol {
-    list-style:none;
+    list-style: none;
+    display: inline-flex;
 }
 
 #menu > li {
@@ -178,8 +179,8 @@ ul, ol {
 }
 
 #menu li ul {
-    display:none;
-    position:absolute;
+    display: none;
+    position: absolute;
     min-width:140px;
 }
 
